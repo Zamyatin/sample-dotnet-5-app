@@ -45,7 +45,7 @@
         "build"
       ],
       "dockerBuild": {
-        "tag": "test1:dev",
+        "tag": "sampledotnet5app:dev",
         "target": "base",
         "dockerfile": "${workspaceFolder}/Dockerfile",
         "context": "${workspaceFolder}",
@@ -62,7 +62,7 @@
         "build"
       ],
       "dockerBuild": {
-        "tag": "test1:latest",
+        "tag": "sampledotnet5app:latest",
         "dockerfile": "${workspaceFolder}/Dockerfile",
         "context": "${workspaceFolder}",
         "pull": true
